@@ -1,0 +1,30 @@
+*{
+margin: 0;
+padding: 0;
+text-align: center;
+}
+body
+{
+overflow:hidden;
+height: 100vh;
+
+}
+#quote
+
+{
+
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2rem;
+    background: rgba(4, 56, 52, 0.623);
+    font-size: 2rem;
+    border-radius: 10px;
+    transition: .5s;
+    color: black;
+    cursor: pointer;
+
+
+
+}
