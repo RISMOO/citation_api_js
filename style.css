@@ -18,13 +18,40 @@ height: 100vh;
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 2rem;
-    background: rgba(4, 56, 52, 0.623);
+    background: rgba(6, 10, 10, 0.719);
     font-size: 2rem;
     border-radius: 10px;
     transition: .5s;
-    color: black;
+    color: rgb(255, 255, 255);
     cursor: pointer;
 
 
 
+}
+
+#h1{
+
+    margin: 0 auto;
+    z-index: 2;
+    position: absolute;
+    padding: 2rem;
+    background: rgba(1, 10, 10, 0.719);
+    font-size: 2rem;
+    border-radius: 10px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 10%;
+
+color: rgb(255, 255, 255);
+}
+#pic
+
+{
+    position: absolute;
+    z-index: 0;
+    margin-right:20px;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top:50%;
 }
